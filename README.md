@@ -18,13 +18,7 @@ This project aims to analyze and predict customer churn using advanced **machine
    - **Correlation Matrix**: Examined relationships between customer attributes and churn.
    - **Histogram and Line Chart**: Visualized customer demographics and churn trends over time.
 
-3. **Machine Learning Models**:
-   - **📈 Logistic Regression**: Established a baseline model to predict churn probability.
-   - **🌳 Decision Tree Classifier**: Used to create an interpretable model with rules based on customer attributes.
-   - **🌲 Random Forest Classifier**: Leveraged an ensemble method to improve model robustness and accuracy.
-   - **📊 SVM Model**: Employed Support Vector Machine for enhanced classification accuracy.
-
-## 📈 Graphs and Visualizations
+## 📈 Graphs, Visualizations & Machine Learning Model Accuracies
 
 ### 🔥 Correlation Matrix
 ![image](https://github.com/user-attachments/assets/59759f7f-5b82-4810-85d5-70034c1be4a3)
@@ -41,6 +35,25 @@ This project aims to analyze and predict customer churn using advanced **machine
 ### 🌡️ Cohort Analysis Heatmap
 ![image](https://github.com/user-attachments/assets/68a5fb43-bd9f-4249-81f2-238e62b2c3fd)
 - **Key Insight**: This cohort retention heatmap shows how customer retention rates change over time. Key insight: Retention stabilizes around 33-34% after the initial quarter, highlighting the importance of focusing retention strategies on new and at-risk customers.
+
+### 📈 Logistic Regression
+- **Description**:The Logistic Regression model achieved an outstanding accuracy of 99.81%, with perfect precision and recall for non-churned customers and nearly perfect recall (0.99) for churned customers, ensuring very few missed churn cases. The balanced performance across both classes, even in an imbalanced dataset, highlights the model's reliability. This strong predictive ability allows for more accurate identification of at-risk customers, enabling targeted retention strategies to effectively reduce churn.
+- **Accuracy**:
+<img width="383" alt="Screenshot 2024-08-17 at 16 00 43" src="https://github.com/user-attachments/assets/641a687c-c82f-4c7b-8755-6e371414e27c">
+
+
+### 🌳 Decision Tree Classifier
+- **Description**: The Decision Tree model achieved a strong accuracy of 98.39%, with high precision (0.99) and recall (0.99) for non-churned customers, and slightly lower but still effective precision (0.94) and recall (0.93) for churned customers. This balanced performance, with a weighted F1-score of 0.98, makes the model reliable for predicting churn across both classes. Additionally, the model’s high precision helps minimize false positives, ensuring that resources are efficiently allocated to truly at-risk customers, thereby improving the overall effectiveness of retention strategies.
+- **Accuracy**:
+<img width="390" alt="Screenshot 2024-08-17 at 16 03 59" src="https://github.com/user-attachments/assets/cd4cfe20-bceb-4f6d-bcce-4fbaa3d0b574">
+
+### 🌲 Random Forest Classifier
+- **Description**: Leveraged an ensemble method to improve model robustness and accuracy.
+- **Accuracy**: ![Random Forest Accuracy](./images/random_forest_accuracy.png)
+
+### 📊 SVM Model
+- **Description**: Employed Support Vector Machine for enhanced classification accuracy.
+- **Accuracy**: ![SVM Accuracy](./images/svm_accuracy.png)
 
 ## 🌟 Key Takeaways
 1. **Interpretability**: Decision Trees provide a clear and interpretable model for stakeholders to understand the factors influencing churn.
