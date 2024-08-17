@@ -56,6 +56,17 @@ This project aims to analyze and predict customer churn using advanced **machine
 - **Accuracy**:
 <img width="382" alt="Screenshot 2024-08-17 at 16 11 23" src="https://github.com/user-attachments/assets/72b7d1d8-5110-49a6-93f1-53f26a4afa04">
 
+## 📊 Tableau Dashboard
+<img width="1201" alt="Screenshot 2024-08-17 at 16 34 04" src="https://github.com/user-attachments/assets/357b1791-9890-4e45-8ddf-ae3fb88fa767">
+
+### 🔍 Key Insights:
+1. **Churn Rate**: Overall churn rate is 12.19%, necessitating targeted retention strategies.
+2. **Income & Age**: Middle-aged and low-income customers have higher churn rates, requiring personalized engagement.
+3. **Complaints**: Even customers with low complaints show significant churn, indicating potential dissatisfaction.
+4. **Tenure Trends**: Newer customers are at higher risk of churn, emphasizing the need for strong onboarding.
+5. **Segmentation**: SME and Corporate segments dominate the customer base, suggesting tailored retention efforts for these groups.
+
+
 ## 🌟 Key Takeaways
 1. 🔍 **High Predictive Accuracy**: The Support Vector Machine (SVM) model achieved outstanding accuracy, making it a top choice for accurately predicting customer churn and reducing false positives.
 2. 📊 **Comprehensive Data Insights**: Visualizations like the Correlation Heatmap and Scatter Plot revealed crucial factors like customer balance and income that strongly correlate with churn, guiding more targeted retention strategies.
@@ -64,20 +75,18 @@ This project aims to analyze and predict customer churn using advanced **machine
 5. 📈 **Strategic Retention Focus**: Cohort Analysis Heatmaps highlighted critical periods for customer retention, enabling businesses to focus their efforts on the most vulnerable customer segments and improve overall retention rates.
 
 ## 🚀 Room for Improvements
-1. **Advanced Feature Engineering**: Introducing additional customer interaction metrics could enhance prediction accuracy.
-2. **Hyperparameter Tuning**: Further tuning of model parameters could improve the SVM and Random Forest models.
-3. **Ensemble Techniques**: Combining different models using ensemble methods may provide even better results.
-4. **Handling Imbalanced Data**: Techniques like SMOTE could be applied to handle any data imbalance issues.
-5. **Non-Linear Models**: Exploring non-linear models could capture complex relationships between features and churn.
+1. **🔧 Advanced Feature Engineering**: Introducing new features like customer engagement metrics and interaction terms to capture complex relationships influencing churn.
+2. **⚙️ Hyperparameter Tuning**: Optimizing model parameters through grid search or boosting techniques to enhance accuracy and generalization.
+3. **⚖️ Addressing Data Imbalance**: Applying techniques like SMOTE (Synthetic Minority Oversampling Technique) or adjust class weights to improve the recall for churned customers and better handle class imbalance.
+4. **🔍 Model Interpretability**: Using SHAP(SHapley Additive exPlanations values) or LIME(Local Interpretable Model-agnostic Explanations) to enhance the interpretability of complex models, helping to understand feature contributions.(Advanced Models)
+5. **🔄 Cross-Validation**: Implementing K-Fold cross-validation to ensure the model generalizes well to different subsets of data, improving robustness.
+
 
 ## 💼 Applications
-- **Customer Retention**: Utilize the models to identify high-risk customers and create targeted retention strategies.
-- **Business Strategy**: Insights derived from the analysis can guide decision-making in marketing, sales, and customer service.
-- **Predictive Analytics**: This methodology can be applied across various industries to predict customer behavior and optimize operations.
+1. **🔍 Precision Targeting**: Use machine learning models to identify and engage high-risk customers with personalized retention strategies before they churn.
+2. **🤖 AI-Driven Engagement**: Implementing AI-powered chatbots and recommendations to proactively address customer needs, enhancing satisfaction and loyalty.
+3. **📊 Dynamic Segmentation**: Continuously segment customers based on behavior, allowing tailored strategies that evolve with customer needs.
+4. **🌐 Omni-Channel Optimization**: Ensure a seamless customer experience across all platforms, reducing churn caused by inconsistent service.
+5. **🔄 Predictive Maintenance**: Monitor customer behavior with time-series analysis to detect and address churn risks early, maintaining long-term engagement.
 
-## 📂 Project Structure
-- **/data**: Contains raw and processed datasets.
-- **/notebooks**: Jupyter notebooks demonstrating the analysis process.
-- **/scripts**: Python scripts for data processing and model training.
-- **/outputs**: Visualizations and final analysis reports.
-- **/images**: Contains the images used in this markdown file.
+
