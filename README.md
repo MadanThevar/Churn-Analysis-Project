@@ -1,9 +1,11 @@
+
+
 <div align="center">
   <h1>📊 Customer Churn Analysis Project</h1>
 </div>
 
 ## 📄 Overview
-This project aims to analyze and predict customer churn using advanced **machine learning** techniques. By understanding the factors contributing to churn, businesses can proactively take steps to improve customer retention and reduce turnover.
+This project utilizes advanced data analysis and machine learning techniques to predict customer churn and enhance retention strategies. Key tools include Python, Pandas, Matplotlib, Seaborn, Scikit-learn, and Tableau for interactive visualizations. The project covers comprehensive data cleaning, exploratory data analysis, and robust modeling, including Logistic Regression, Decision Trees, and Support Vector Machines (SVM). Visualizations, such as cohort retention heatmaps and customer segmentation graphs, alongside Tableau dashboards, provide actionable insights for data-driven decision-making in customer retention.
 
 ## 📊 Dataset Information
 - **Source**: The dataset contains various customer attributes, such as demographics, account information, and usage statistics.
@@ -66,6 +68,12 @@ This project aims to analyze and predict customer churn using advanced **machine
 4. **Tenure Trends**: Newer customers are at higher risk of churn, emphasizing the need for strong onboarding.
 5. **Segmentation**: SME and Corporate segments dominate the customer base, suggesting tailored retention efforts for these groups.
 
+### ⚖️ Adjustments and Calculated Fields:
+1. **Income & Age Groupings**: Created calculated fields for age and income ranges to analyze churn across different customer demographics.
+2. **Complaint Level Segmentation**: Segmented customers based on complaint levels using calculated fields to visualize the impact of complaints on churn.
+3. **Customer Tenure Calculation**: Applied quick table calculations to track and visualize customer tenure trends over time.
+4. **Churn Rate Calculation**: Calculated overall churn rate by dividing churned customers by total customers, providing a clear metric for analysis.
+5. **Customer Segmentation by Category**: Categorized customers into SME, Corporate, and Retail segments using calculated fields to highlight the distribution of the customer base.
 
 ## 🌟 Key Takeaways
 1. 🔍 **High Predictive Accuracy**: The Support Vector Machine (SVM) model achieved outstanding accuracy, making it a top choice for accurately predicting customer churn and reducing false positives.
