@@ -98,3 +98,9 @@ This project utilizes advanced data analysis and machine learning techniques to 
 5. **🔄 Predictive Maintenance**: Monitor customer behavior with time-series analysis to detect and address churn risks early, maintaining long-term engagement.
 
 
+## 📊 Dataset Information
+
+The full dataset for this project is available for download on Google Drive. Click the link below to access the dataset:
+
+[Download Dataset from Google Drive](https://drive.google.com/file/d/11cPBlPd6nBiJJ0jd-A0zxrXcihpTHmqv/view?usp=drive_link)
+
