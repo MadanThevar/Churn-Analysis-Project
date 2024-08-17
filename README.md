@@ -27,16 +27,16 @@ This project aims to analyze and predict customer churn using advanced **machine
 ## 📈 Graphs and Visualizations
 
 ### 🔥 Correlation Matrix
-![Correlation Matrix](./images/correlation_matrix.png)
-- **Key Insight**: The correlation heatmap reveals a moderate negative correlation between `Churn Flag` and `Balance` (-0.50), indicating that customers with lower balances are more prone to churn.
+![image](https://github.com/user-attachments/assets/59759f7f-5b82-4810-85d5-70034c1be4a3)
+- **Key Insight**: The correlation heatmap reveals that higher customer balances strongly correlate with lower churn (-0.50), while an increased number of complaints is moderately associated with higher churn (0.20), indicating key factors influencing customer retention.
 
-### 📊 Histogram
-![Histogram](./images/histogram.png)
-- **Key Insight**: The histogram shows the distribution of key customer demographics, such as age and tenure. It helps identify patterns in customer segments that are more likely to churn.
-
-### 📈 Line Chart
-![Line Chart](./images/line_chart.png)
-- **Key Insight**: The line chart tracks churn rates over time, revealing trends and helping businesses identify periods of high churn risk.
+### 📊 Customer Segmentation Graph
+![image](https://github.com/user-attachments/assets/037e6a19-1d09-415d-92ac-689fabfaf217)
+- **Key Insight**: The graph shows that the churn distribution is relatively uniform across the three customer segments (SME (Small and Midsize Enterprise, Corporate, and Retail), indicating that churn is a consistent issue across all segments and not concentrated in any particular group.
+  
+### 📈 Scatter Plot
+![image](https://github.com/user-attachments/assets/6d9c87e1-6cd8-4516-91a8-1c9e0187a5c9)
+- **Key Insight**: The scatter plot highlights that customers with lower balances and incomes tend to have a higher likelihood of churning, as evidenced by the concentration of orange dots (representing churn) in the lower left quadrant of the graph. This suggests that financial status, specifically lower income and balance, could be a significant factor contributing to customer churn, indicating a potential area for targeted retention strategies.
 
 ### 📈 SVM Model - Classification Boundary
 ![SVM Model](./images/svm_boundary.png)
