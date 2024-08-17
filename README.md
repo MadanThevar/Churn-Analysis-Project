@@ -1,4 +1,4 @@
-
+![Churn Analysis](https://raw.githubusercontent.com/MadanThevar/Churn-Analysis-Project/main/1591702479502.webp)
 
 <div align="center">
   <h1>📊 Customer Churn Analysis Project</h1>
@@ -8,7 +8,7 @@
 This project utilizes advanced data analysis and machine learning techniques to predict customer churn and enhance retention strategies. Key tools include Python, Pandas, Matplotlib, Seaborn, Scikit-learn, and Tableau for interactive visualizations. The project covers comprehensive data cleaning, exploratory data analysis, and robust modeling, including Logistic Regression, Decision Trees, and Support Vector Machines (SVM). Visualizations, such as cohort retention heatmaps and customer segmentation graphs, alongside Tableau dashboards, provide actionable insights for data-driven decision-making in customer retention.
 
 ## 📊 Dataset Information
-- **Source**: The dataset contains various customer attributes, such as demographics, account information, and usage statistics.
+- **Source**: The dataset contains various customer attributes, such as demographics, account information, and usage statistics had to remove personal records for confidentiality and inserted fictional data to avoid someones personal data information from being leaked.
 - **Data Cleaning**: The dataset was meticulously cleaned, with missing values addressed, and outliers removed to ensure data integrity and reliability.
 
 ## 🔍 Methodology
