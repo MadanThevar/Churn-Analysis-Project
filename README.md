@@ -21,8 +21,8 @@ This project aims to analyze and predict customer churn using advanced **machine
 3. **Machine Learning Models**:
    - **📈 Logistic Regression**: Established a baseline model to predict churn probability.
    - **🌳 Decision Tree Classifier**: Used to create an interpretable model with rules based on customer attributes.
-   - **📊 SVM Model**: Employed Support Vector Machine for enhanced classification accuracy.
    - **🌲 Random Forest Classifier**: Leveraged an ensemble method to improve model robustness and accuracy.
+   - **📊 SVM Model**: Employed Support Vector Machine for enhanced classification accuracy.
 
 ## 📈 Graphs and Visualizations
 
@@ -38,13 +38,9 @@ This project aims to analyze and predict customer churn using advanced **machine
 ![image](https://github.com/user-attachments/assets/6d9c87e1-6cd8-4516-91a8-1c9e0187a5c9)
 - **Key Insight**: The scatter plot highlights that customers with lower balances and incomes tend to have a higher likelihood of churning, as evidenced by the concentration of orange dots (representing churn) in the lower left quadrant of the graph. This suggests that financial status, specifically lower income and balance, could be a significant factor contributing to customer churn, indicating a potential area for targeted retention strategies.
 
-### 📈 SVM Model - Classification Boundary
-![SVM Model](./images/svm_boundary.png)
-- **Key Insight**: The SVM model's decision boundary demonstrates its capability in classifying churned versus non-churned customers with higher precision.
-
-### 🌳 Decision Tree - Visualization
-![Decision Tree](./images/decision_tree.png)
-- **Key Insight**: The decision tree visualization offers an easy-to-understand rule-based approach to predicting churn, making it accessible for non-technical stakeholders.
+### 🌡️ Cohort Analysis Heatmap
+![image](https://github.com/user-attachments/assets/68a5fb43-bd9f-4249-81f2-238e62b2c3fd)
+- **Key Insight**: This cohort retention heatmap shows how customer retention rates change over time. Key insight: Retention stabilizes around 33-34% after the initial quarter, highlighting the importance of focusing retention strategies on new and at-risk customers.
 
 ## 🌟 Key Takeaways
 1. **Interpretability**: Decision Trees provide a clear and interpretable model for stakeholders to understand the factors influencing churn.
@@ -71,7 +67,3 @@ This project aims to analyze and predict customer churn using advanced **machine
 - **/scripts**: Python scripts for data processing and model training.
 - **/outputs**: Visualizations and final analysis reports.
 - **/images**: Contains the images used in this markdown file.
-
-## 🙌 Contributors
-- **Your Name** - Lead Data Analyst
-- **Team Members** - Supporting Analysts and Engineers
